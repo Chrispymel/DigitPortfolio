@@ -1,8 +1,14 @@
+header{
+    width: 100vw;
+    font-family: Zapf-Chancery, cursive;
+}
+
+
 body {
 
-    /*background:papayaWhip*/
-    background: lavender;
-    font-family: Comic-sans, Arial, Helvetica, sans-serif;
+    /*background:Navyblue*/
+    background: grey;
+    font-family: Comic-sans, Papyrus, Helvetica, sans-serif;
 }
 
 div.side-by-side {
@@ -10,13 +16,9 @@ div.side-by-side {
 }
 
 .gallery{
-    display: flex; background:blue;
+    display: flex;
     flex-wrap: wrap;
     gap: 20px;
-}
-
-figure{
-    background:green;
 }
 
 figcaption{
@@ -24,11 +26,11 @@ figcaption{
 }
 
 img {
-    width: 100%;
+    width: 50vw;
     max-width: 500px;
 }
 
 .featureBlock {
-    background-color:pink;
+    background-color:white;
     font-size: smaller;
 }

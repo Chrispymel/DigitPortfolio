@@ -11,6 +11,8 @@ div.side-by-side {
 
 .gallery{
     display: flex; background:blue;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 figure{

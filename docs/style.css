@@ -1,3 +1,18 @@
+.save-icon::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f0c7";
+    margin-right: 5px;
+}
+
+.custom-icon{
+    background-image: url('../images/M.png');
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+
 header{
     width: 100vw;
     font-family: Zapf-Chancery, cursive;

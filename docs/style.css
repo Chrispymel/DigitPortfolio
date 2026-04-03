@@ -24,6 +24,7 @@ body {
     /*background:Navyblue*/
     background: grey;
     font-family: Comic-sans, Papyrus, Helvetica, sans-serif;
+    cursor: url('finger.jpeg'), auto;
 }
 
 div.side-by-side {

@@ -28,8 +28,9 @@ body {
 
 .threeD{
     position: relative;
-    width: 100%;
+    width: 60%;
     padding-bottom: 56.25%;
+    margin: 0 auto;
 }
 
 .threeD iframe{

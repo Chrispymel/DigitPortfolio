@@ -62,10 +62,21 @@ html, body{
     padding: 0;
     height: 100%;
 }
+
 .fullscreen-img {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+}
+
+.image-row {
+    display: flex;
+    gap: 10px;
+}
+
+.image-row img {
+    width: 30%;
+    height: auto;
 }
 
 img {

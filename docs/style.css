@@ -1,10 +1,4 @@
 
-
-*{
-    outline: 1px solid red;
-}
-
-
 .save-icon::before{
     font-family: "Font Awesome 6 Free";
     font-weight: 900;

@@ -69,6 +69,16 @@ html, body{
     object-fit: cover;
 }
 
+.image-row{
+    display: flex;
+    gap: 10px;
+}
+
+.image-row img{
+    width: 30%;
+    height: auto;
+}
+
 img {
     width: 50vw;
     max-width: 500px;

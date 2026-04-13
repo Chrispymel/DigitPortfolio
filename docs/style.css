@@ -1,3 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.background{
+    width:100%;
+    height:100%;
+    background-image: url("../images/computerbackground.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
 
 .save-icon::before{
     font-family: "Font Awesome 6 Free";

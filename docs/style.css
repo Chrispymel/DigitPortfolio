@@ -7,7 +7,7 @@
 .background{
     width:100%;
     height:100%;
-    background-image: url("../images/computerbackground.jpeg");
+    background-image: url("images/computerbackground.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -39,6 +39,9 @@ body {
     background: grey;
     font-family: Comic-sans, Papyrus, Helvetica, sans-serif;
     cursor: url('finger.png'), auto;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
 }
 
 .threeD{
@@ -87,6 +90,7 @@ html, body{
 .image-row{
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .image-row img{
@@ -95,8 +99,11 @@ html, body{
 }
 
 img {
-    width: 50vw;
+    width: 100%;
     max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px 0;
 }
 
 .featureBlock {
@@ -106,30 +113,19 @@ img {
 
 .iframe-wrapper{
     width: 100%;
-}
-
-.iframe-wrapper iframe{
-    width: 100%;
-    height: 500px;
-    border: none;
-}
-
-.iframe-wrapper{
     width: 100vw;
     margin: 0;
-}
-
-.iframe-wrapper iframe{
-    width: 100%;
-    height: 100vh;
-}
-.iframe-wrapper{
     position: relative;
     width: 100%;
     padding-top: 56.25%
 }
 
 .iframe-wrapper iframe{
+    width: 100%;
+    height: 500px;
+    width: 100%;
+    height: 100vh;
+    border: none;
     position: absolute;
     top: 0;
     left: 0;

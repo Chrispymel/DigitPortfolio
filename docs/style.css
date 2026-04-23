@@ -41,6 +41,7 @@ body {
     cursor: url('finger.png'), auto;
     margin: 0;
     padding: 20px;
+    padding: 1em;
     line-height: 1.6;
 }
 

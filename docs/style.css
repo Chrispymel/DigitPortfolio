@@ -12,6 +12,23 @@
     background-size: cover;
     background-position: center;
     }
+.ct-section-inner-wrap{
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+}
+.ct-section-inner-wrap{
+    padding-top: 75px;
+    padding-right: 20px;
+    padding-bottom: 75px;
+    padding-left: 20px;
+}
+
+.ct-section-inner-wrap, .oxy-header-container{
+    max-width: 1120px;
+}
+    
+    
 
 .save-icon::before{
     font-family: "Font Awesome 6 Free";
